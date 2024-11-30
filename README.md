@@ -12,7 +12,7 @@ Displays bounding boxes and confidence scores for detected objects.
 Model: The project uses the MobileNet-SSD pre-trained model, optimized for real-time applications.
 Classes Detected: The model recognizes 21 object categories, including:
 Aeroplane, Bicycle, Bird, Boat, Bottle, Bus, Car, Cat, Chair, Cow, Dining Table, Dog, Horse, Motorbike, Person, Potted Plant, Sheep, Sofa, Train, TV Monitor.
-Processing:
+**Processing:**
 Each video frame is resized and converted into a blob format using cv2.dnn.blobFromImage.
 The blob is passed through the network, and predictions are filtered based on a confidence threshold.
 Detected objects are highlighted with bounding boxes and labeled with class names and confidence scores.
